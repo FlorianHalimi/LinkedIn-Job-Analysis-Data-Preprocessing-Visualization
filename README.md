@@ -1,7 +1,10 @@
 # LinkedIn-Job-Analysis-Data-Preprocessing-Visualization
 
 ## Overview
-The "LinkedIn Job Postings" dataset sourced from Kaggle, [LinkedIn Job Postings - 2023](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings/data), contains information related to job postings, companies, skills, and more from LinkedIn's platform.
+
+This project is developed as part of the "Pre-processing and Visualising Data" course (First Semester of Master's) at the University of Prishtina (UP), Faculty of Electrical and Computer Engineering (FIEK).
+
+The "LinkedIn Job Postings" dataset is sourced from Kaggle, [LinkedIn Job Postings - 2023](https://www.kaggle.com/datasets/arshkon/linkedin-job-postings/data), and contains information related to job postings, companies, skills, and more from LinkedIn's platform.
 
 ## Objectives
 
@@ -93,4 +96,6 @@ Here's a simple guide to running an .ipynb file:
     Once the notebook is open, you can run the code cells individually or all at once. Click on a cell containing code and use the "Run" button in the toolbar, or use Shift+Enter as a shortcut to execute the cell. The results (Output) will display directly below the cell. 
 
 <hr>
+
+
     
