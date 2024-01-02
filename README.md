@@ -190,22 +190,38 @@ We have generated a matrix summarizing the model's classifications, comparing pr
 
 We have calculated statistical measures for 'experience_level' and 'country' column:
 
-Mean:
-experience_level 4.177390,
-country 1.550803
+Mean:</br>
+experience_level    4.174902,</br>
+country             1.000000
 
-Mode:
-experience_level 4,
-country 1
+Mode:</br>
+experience_level    4,</br>
+country             1
 
-Standard Deviation:
-experience_level 1.884137,
-country 2.896728
+Standard Deviation:</br>
+experience_level    1.889867,</br>
+country             0.000000
 
-Median:
-experience_level 4.0,
-country 1.0
+Median:</br>
+experience_level    4.0,</br>
+country             1.0
 
-Variance:
-experience_level 3.549972,
-country 8.391032
+Variance:</br>
+experience_level    3.571599,</br>
+country             0.000000
+
+Summary Statistics for 'experience_level' column:
+
+min          1.000000 </br>
+25%          2.000000</br>
+50%          4.000000</br>
+75%          7.000000</br>
+max          7.000000</br>
+
+Summary Statistics for 'country' column:
+
+min          1.0</br>
+25%          1.0</br>
+50%          1.0</br>
+75%          1.0</br>
+max          1.0</br>
