@@ -128,6 +128,8 @@ By generating a scatter plot that represents these two columns, we visually pinp
 
 We've created a method named 'detect_outliers_frequency' intended for outlier identification based on frequency within our dataset. This function accepts data as input alongside lower and upper bounds, set by default to 700 and 30,000 respectively. Consequently, it aids in filtering values whose frequency is below the lower bound or surpasses the upper limit.
 
+We've identified outliers using the z-score technique, flagging any data points lying beyond the 3% threshold.
+
 #### IQR method
 
 Another method used for outlier detection is the IQR method, which involves calculating quartiles (q1 and q3), determining the interquartile range (IQR), and establishing upper and lower bounds to detect outliers in a dataset.
@@ -166,3 +168,44 @@ Skewness is a statistical measure that indicates the asymmetry or deviation from
 skew() function is used to compute the skewness values for the specified numerical columns within the 'cleaned_df' dataset.
 
 Upon examination of the outcomes, we observe that the 'experience_level' column exhibits a symmetric distribution. Conversely, the 'country' column displays positive skewness.
+
+## Separate the dataset into training and testing data
+
+This phase involves splitting the data into training and testing sets.
+
+Experience Level Analysis:
+
+1. Utilizes a dataset ('cleaned_df') with an assumed 'experience_level' column.
+2. Splits the data into features (X) and the target variable 'experience_level' (y).
+3. Divides the dataset into 80% training and 20% testing subsets using 'train_test_split'.
+4. Visualizes the distribution of 'experience_level' within both the training and testing sets using histograms.
+
+This phase encompasses similar procedures applied to the 'country' column.
+
+The accuracy achieved by employing Logistic Regression Modeling stands at 83%.
+
+We have generated a matrix summarizing the model's classifications, comparing predicted and actual labels.This visualization provides a comprehensive overview of how well the model's predictions align with the actual class labels, showcasing true positives, true negatives, false positives, and false negatives across different classes in a classification task.
+
+## Statistical Measures
+
+We have calculated statistical measures for 'experience_level' and 'country' column:
+
+Mean:
+experience_level 4.177390,
+country 1.550803
+
+Mode:
+experience_level 4,
+country 1
+
+Standard Deviation:
+experience_level 1.884137,
+country 2.896728
+
+Median:
+experience_level 4.0,
+country 1.0
+
+Variance:
+experience_level 3.549972,
+country 8.391032
