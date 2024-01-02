@@ -87,11 +87,17 @@ To use the code, take the following steps:
 
 1. Install Jupyter Extensions in VS Code:  
    Open VS Code and navigate to the Extensions view. Search for "Jupyter" and install the "Jupyter" extension provided by Microsoft.
-2. Install Pandas Library:  
-   Pandas is a crucial library for data analysis in Python. You can install it via the terminal or command prompt using pip.  
+2. Install Libraries:  
+   Pandas is a crucial library for data analysis in Python. You can install libraries via the terminal or command prompt using pip.  
    Use the command:
    ```
    pip install pandas
+   pip install pandas
+   pip install seaborn
+   pip install matplotlib
+   pip install scipy
+   pip install sklearn
+   pip install imbalanced-learn 
    ```
 3. To run the code, you'll open the file in Jupyter Notebook and execute the cells containing the code.
 
