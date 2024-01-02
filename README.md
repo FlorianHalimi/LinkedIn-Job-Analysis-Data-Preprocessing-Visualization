@@ -163,15 +163,15 @@ We used the code to conducts random sampling from a dataset, creating a smaller 
 Here's a step-by-step explanation:
 
 1. Random Sampling:
-   - Sets a sample size of 20 and randomly selects rows from the 'cleaned_df' dataset using the sample method.
+   - Sets a sample size of 20 and randomly selects rows from the 'cleaned_data' dataset using the sample method.
 2. Histogram Comparison - 'experience_level' and 'country' Column:
-   - Left subplot (Original Dataset): Plots a histogram of the 'experience_level' column from the entire dataset ('cleaned_df') in blue.
+   - Left subplot (Original Dataset): Plots a histogram of the 'experience_level' column from the entire dataset ('cleaned_data') in blue.
    - Right subplot (Sampled Dataset): Plots a histogram of the 'experience_level' column from the sampled data in orange.
 
 ## Skewness data
 
 Skewness is a statistical measure that indicates the asymmetry or deviation from symmetry in a dataset's distribution. We have selected numerical columns 'experience_level' and 'country' from the dataset.
-skew() function is used to compute the skewness values for the specified numerical columns within the 'cleaned_df' dataset.
+skew() function is used to compute the skewness values for the specified numerical columns within the 'cleaned_data' and 'cleaned_df' dataset after and before removing outliers.
 
 Upon examination of the outcomes, we observe that the 'experience_level' column exhibits a symmetric distribution. Conversely, the 'country' column displays positive skewness.
 
@@ -181,7 +181,7 @@ This phase involves splitting the data into training and testing sets.
 
 Experience Level Analysis:
 
-1. Utilizes a dataset ('cleaned_df') with an assumed 'experience_level' column.
+1. Utilizes a dataset ('cleaned_data') with an assumed 'experience_level' column.
 2. Splits the data into features (X) and the target variable 'experience_level' (y).
 3. Divides the dataset into 80% training and 20% testing subsets using 'train_test_split'.
 4. Visualizes the distribution of 'experience_level' within both the training and testing sets using histograms.
