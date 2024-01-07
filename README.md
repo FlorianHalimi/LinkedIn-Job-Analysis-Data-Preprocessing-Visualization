@@ -97,7 +97,11 @@ To use the code, take the following steps:
    pip install matplotlib
    pip install scipy
    pip install sklearn
-   pip install imbalanced-learn 
+   pip install imbalanced-learn
+   pip install plotly.express
+   pip install matplotlib.pyplot
+   pip install ipywidgets
+   pip install IPython.display
    ```
 3. To run the code, you'll open the file in Jupyter Notebook and execute the cells containing the code.
 
@@ -151,8 +155,6 @@ Another method used for outlier detection is the IQR method, which involves calc
 
 We've developed methods called 'generate_valid_countries' and 'remove_country_anomalies' to aid in identifying and eliminating anomalies within a 'country' column. The 'generate_valid_countries' function dynamically generates a list of valid countries based on a length criterion (countries with a length of 2 characters). We showed histograms before and after the anomaly removal process to visualize the frequency distribution of countries.
 
-
-
 ## SMOTE algorithm
 
 SMOTE is dedicated to rectifying class imbalances by showcasing the transformation of class distribution from an imbalanced state to a more balanced one. This process is pivotal in enhancing machine learning model performance, particularly when handling imbalanced classes, thereby improving their effectiveness.
@@ -180,7 +182,6 @@ Here's a step-by-step explanation:
 2. Histogram Comparison - 'experience_level' and 'country' Column:
    - Left subplot (Original Dataset): Plots a histogram of the 'experience_level' column from the entire dataset ('cleaned_data') in blue.
    - Right subplot (Sampled Dataset): Plots a histogram of the 'experience_level' column from the sampled data in orange.
-
 
 <div style="text-align:center">
   <figure>
@@ -225,44 +226,123 @@ We have generated a matrix summarizing the model's classifications, comparing pr
 We have calculated statistical measures for 'experience_level' and 'country' column:
 
 Mean:</br>
-experience_level    4.174902,</br>
-country             1.000000
+experience_level 4.174902,</br>
+country 1.000000
 
 Mode:</br>
-experience_level    4,</br>
-country             1
+experience_level 4,</br>
+country 1
 
 Standard Deviation:</br>
-experience_level    1.889867,</br>
-country             0.000000
+experience_level 1.889867,</br>
+country 0.000000
 
 Median:</br>
-experience_level    4.0,</br>
-country             1.0
+experience_level 4.0,</br>
+country 1.0
 
 Variance:</br>
-experience_level    3.571599,</br>
-country             0.000000
+experience_level 3.571599,</br>
+country 0.000000
 
 Summary Statistics for 'experience_level' column:
 
-min          1.000000 </br>
-25%          2.000000</br>
-50%          4.000000</br>
-75%          7.000000</br>
-max          7.000000</br>
+min 1.000000 </br>
+25% 2.000000</br>
+50% 4.000000</br>
+75% 7.000000</br>
+max 7.000000</br>
 
 Summary Statistics for 'country' column:
 
-min          1.0</br>
-25%          1.0</br>
-50%          1.0</br>
-75%          1.0</br>
-max          1.0</br>
+min 1.0</br>
+25% 1.0</br>
+50% 1.0</br>
+75% 1.0</br>
+max 1.0</br>
 
 <div style="text-align:center">
   <figure>
-    !<img src="images/image_5.png" alt="Original vs Sampled dataset" >
+    <img src="images/image_5.png" alt="Original vs Sampled dataset" >
     <figcaption style="color:lightblue; font-style: italic;">Fig. 5. Histogram of Mean, Median and Mode</figcaption>
   </figure>
 </div>
+
+# Visualization
+
+### Visualization of data based on data type.
+
+#### Our dataset contains nominal data types (company, location) and ordinal data types (experience_level).
+
+1.  Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills
+
+#### Nominal data type
+
+<div style="text-align:center">
+  <figure>
+    <img src="images/image_6.png" alt="" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 6. Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills</figcaption>
+  </figure>
+</div>
+
+2. Displaying the distribution of job postings among the top 10 companies for the selected experience level
+
+#### Ordinal and nominal type of data
+
+<div style="text-align:center">
+  <figure>
+    <img src="images/image_7.png" alt="" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 7. Displaying the distribution of job postings among the top 10 companies for the selected experience level</figcaption>
+  </figure>
+</div>
+
+### Static Visualization
+
+#### In this part, we will visualise the static representation of the data in our dataset
+
+1. Pie Chart showing top 10 companies with Most Job Postings in Linkedin
+
+  <div style="text-align:center">
+  <figure>
+    <img src="images/image_8.png" alt="" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 8. Pie Chart showing top 10 companies with Most Job Postings in Linkedin</figcaption>
+  </figure>
+</div>
+
+2. Donut chart showing top 10 locations with Most Job Postings in Linkedin
+
+  <div style="text-align:center">
+  <figure>
+    <img src="images/image_9.png" alt="" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 9. Donut chart showing top 10 locations with Most Job Postings in Linkedin</figcaption>
+  </figure>
+</div>
+
+### Interactive Visualization
+
+#### In this part, we will visualise the interactive representation of the data in our dataset
+
+#### The first graph will display the top 10 most required skills based on the top 10 locations with the highest number of job postings on LinkedIn, and it's also possible to filter based on experience level.
+
+1. Skills distribution based on location and experience level
+
+<div style="text-align:center">
+  <figure>
+    <img src="images/image_10.png" alt="" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 10. Pie chart showing top skills based on location and experience level</figcaption>
+  </figure>
+</div>
+
+1. Top companies based on location and experience level
+
+<div style="text-align:center">
+  <figure>
+    <img src="images/image_11.png" alt="" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 11. Pie chart showing top companies based on location and experience level</figcaption>
+  </figure>
+</div>
+
+### Multi-dimensional Visualization
+
+#### In this part, we will 3D visualisation of the data in our dataset
+
