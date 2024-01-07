@@ -146,8 +146,8 @@ Another method used for outlier detection is the IQR method, which involves calc
 
 <div style="text-align:center">
   <figure>
-    !<img src="images/image_1.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 1. Distribution of dataset before & after removing outliers</figcaption>
+    <img src="images/image_1.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 1. Distribution of dataset before & after removing outliers</figcaption>
   </figure>
 </div>
 
@@ -166,8 +166,8 @@ SMOTE is dedicated to rectifying class imbalances by showcasing the transformati
 
 <div style="text-align:center">
   <figure>
-    !<img src="images/image_2.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 2. Class distribution before and after SMOTE</figcaption>
+    <img src="images/image_2.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 2. Class distribution before and after SMOTE</figcaption>
   </figure>
 </div>
 
@@ -185,8 +185,8 @@ Here's a step-by-step explanation:
 
 <div style="text-align:center">
   <figure>
-    !<img src="images/image_3.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 3. Original Dataset vs Sampled Subset</figcaption>
+    <img src="images/image_3.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 3. Original Dataset vs Sampled Subset</figcaption>
   </figure>
 </div>
 
@@ -199,8 +199,8 @@ Upon examination of the outcomes, we observe that the 'experience_level' column 
 
 <div style="text-align:center">
   <figure>
-    !<img src="images/image_4.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 4. Skewness of experience_level and country</figcaption>
+    <img src="images/image_4.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 4. Skewness of experience_level and country</figcaption>
   </figure>
 </div>
 
@@ -281,7 +281,7 @@ max 1.0</br>
 <div style="text-align:center">
   <figure>
     <img src="images/image_6.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 6. Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills</figcaption>
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 6. Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills</figcaption>
   </figure>
 </div>
 
@@ -292,7 +292,7 @@ max 1.0</br>
 <div style="text-align:center">
   <figure>
     <img src="images/image_7.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 7. Displaying the distribution of job postings among the top 10 companies for the selected experience level</figcaption>
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 7. Displaying the distribution of job postings among the top 10 companies for the selected experience level</figcaption>
   </figure>
 </div>
 
@@ -305,16 +305,17 @@ max 1.0</br>
   <div style="text-align:center">
   <figure>
     <img src="images/image_8.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 8. Pie Chart showing top 10 companies with Most Job Postings in Linkedin</figcaption>
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 8. Pie Chart showing top 10 companies with Most Job Postings in Linkedin</figcaption>
   </figure>
 </div>
+</br>
 
 2. Donut chart showing top 10 locations with Most Job Postings in Linkedin
 
   <div style="text-align:center">
   <figure>
     <img src="images/image_9.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 9. Donut chart showing top 10 locations with Most Job Postings in Linkedin</figcaption>
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 9. Donut chart showing top 10 locations with Most Job Postings in Linkedin</figcaption>
   </figure>
 </div>
 
@@ -329,7 +330,7 @@ max 1.0</br>
 <div style="text-align:center">
   <figure>
     <img src="images/image_10.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 10. Pie chart showing top skills based on location and experience level</figcaption>
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 10. Pie chart showing top skills based on location and experience level</figcaption>
   </figure>
 </div>
 
@@ -338,11 +339,10 @@ max 1.0</br>
 <div style="text-align:center">
   <figure>
     <img src="images/image_11.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 11. Pie chart showing top companies based on location and experience level</figcaption>
+    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 11. Pie chart showing top companies based on location and experience level</figcaption>
   </figure>
 </div>
 
 ### Multi-dimensional Visualization
 
 #### In this part, we will 3D visualisation of the data in our dataset
-
