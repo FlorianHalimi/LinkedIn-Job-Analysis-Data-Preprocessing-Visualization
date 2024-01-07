@@ -284,7 +284,7 @@ max 1.0</br>
     <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 6. Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills</figcaption>
   </figure>
 </div>
-
+</br>
 2. Displaying the distribution of job postings among the top 10 companies for the selected experience level
 
 #### Ordinal and nominal type of data
@@ -334,6 +334,7 @@ max 1.0</br>
     <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 10. Pie chart showing top skills based on location and experience level</figcaption>
   </figure>
 </div>
+</br>
 
 1. Top companies based on location and experience level
 
@@ -346,4 +347,27 @@ max 1.0</br>
 
 ### Multi-dimensional Visualization
 
-#### In this part, we will 3D visualisation of the data in our dataset
+#### Relationships among the top 5 companies, locations, and skills are explored by creating an interactive 3D scatter plot visualization.
+
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_12.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 12. 3D visualisation of Top 5 companies, location and skills</figcaption>
+  </figure>
+</div>
+
+# Conclusion 
+#### End of our LinkedIn Job Postings project! 🎉
+
+This repository encapsulates our journey through the comprehensive exploration and visualization of LinkedIn job postings data. Spanning three distinct phases: preprocessing the dataset, removing outliers/anomalies, and visualizing the results.
+
+## Key Objectives Achieved:
+  1. Identifying Top Companies by Cities: 
+  </br>
+  - We successfully showcased the companies with the highest number of job postings on LinkedIn across various cities.
+
+  2. Analyzing Top Skills Required: 
+  - Through meticulous analysis, we visualized the most sought-after skills specified in job postings by different companies.
+
+## Beyond Our Objectives:
+Our exploration went beyond the initial goals, allowing us to dive deeper into intricate relationships between companies, locations, and skills. Notably, our interactive 3D scatter plot visualization unveiled compelling connections among the top companies, locations, and skills. Additionally, we delved into company presence based on location and experience level, skill distributions, and presented insights through engaging visualizations like donut and pie charts.
