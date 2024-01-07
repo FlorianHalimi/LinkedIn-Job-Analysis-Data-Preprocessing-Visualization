@@ -315,6 +315,7 @@ max 1.0</br>
 <div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
   <figure style="text-align: center;">
     <img src="images/image_9.png" alt="" style="max-width: 100%; height: auto;">
+    </br>
     <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 9. Donut chart showing top 10 locations with Most Job Postings in Linkedin</figcaption>
   </figure>
 </div>
