@@ -356,18 +356,22 @@ max 1.0</br>
   </figure>
 </div>
 
-# Conclusion 
+# Conclusion
+
 #### End of our LinkedIn Job Postings project! 🎉
 
 This repository encapsulates our journey through the comprehensive exploration and visualization of LinkedIn job postings data. Spanning three distinct phases: preprocessing the dataset, removing outliers/anomalies, and visualizing the results.
 
 ## Key Objectives Achieved:
-  1. Identifying Top Companies by Cities: 
-  </br>
-  - We successfully showcased the companies with the highest number of job postings on LinkedIn across various cities.
 
-  2. Analyzing Top Skills Required: 
-  - Through meticulous analysis, we visualized the most sought-after skills specified in job postings by different companies.
+1. Identifying Top Companies by Cities:
+
+   We successfully showcased the companies with the highest number of job postings on LinkedIn across various cities.
+
+2. Analyzing Top Skills Required:
+
+   Through meticulous analysis, we visualized the most sought-after skills specified in job postings by different companies.
 
 ## Beyond Our Objectives:
+
 Our exploration went beyond the initial goals, allowing us to dive deeper into intricate relationships between companies, locations, and skills. Notably, our interactive 3D scatter plot visualization unveiled compelling connections among the top companies, locations, and skills. Additionally, we delved into company presence based on location and experience level, skill distributions, and presented insights through engaging visualizations like donut and pie charts.
