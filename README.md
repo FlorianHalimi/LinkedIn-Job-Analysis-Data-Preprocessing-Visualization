@@ -140,12 +140,18 @@ We've identified outliers using the z-score technique, flagging any data points 
 
 Another method used for outlier detection is the IQR method, which involves calculating quartiles (q1 and q3), determining the interquartile range (IQR), and establishing upper and lower bounds to detect outliers in a dataset.
 
+<div style="text-align:center">
+  <figure>
+    !<img src="images/image_1.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 1. Distribution of dataset before & after removing outliers</figcaption>
+  </figure>
+</div>
+
 ## Detecting and removing of anomalies
 
 We've developed methods called 'generate_valid_countries' and 'remove_country_anomalies' to aid in identifying and eliminating anomalies within a 'country' column. The 'generate_valid_countries' function dynamically generates a list of valid countries based on a length criterion (countries with a length of 2 characters). We showed histograms before and after the anomaly removal process to visualize the frequency distribution of countries.
 
-1. First histogram displays the frequency distribution of countries before anomaly removal.
-2. The second histogram displays the distribution after anomalies have been removed.
+
 
 ## SMOTE algorithm
 
@@ -155,6 +161,13 @@ SMOTE is dedicated to rectifying class imbalances by showcasing the transformati
    - Creates a bar plot showcasing the distribution of 'experience_level' within the sample dataset before applying SMOTE.
 2. SMOTE Application:
    - Uses SMOTE to oversample the minority class ('experience_level') in the training set, creating a more balanced dataset.
+
+<div style="text-align:center">
+  <figure>
+    !<img src="images/image_2.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 2. Class distribution before and after SMOTE</figcaption>
+  </figure>
+</div>
 
 ## Comparative Distribution Analysis: Original Dataset vs. Sampled Subset
 
@@ -168,12 +181,27 @@ Here's a step-by-step explanation:
    - Left subplot (Original Dataset): Plots a histogram of the 'experience_level' column from the entire dataset ('cleaned_data') in blue.
    - Right subplot (Sampled Dataset): Plots a histogram of the 'experience_level' column from the sampled data in orange.
 
+
+<div style="text-align:center">
+  <figure>
+    !<img src="images/image_3.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 3. Original Dataset vs Sampled Subset</figcaption>
+  </figure>
+</div>
+
 ## Skewness data
 
 Skewness is a statistical measure that indicates the asymmetry or deviation from symmetry in a dataset's distribution. We have selected numerical columns 'experience_level' and 'country' from the dataset.
 skew() function is used to compute the skewness values for the specified numerical columns within the 'cleaned_data' and 'cleaned_df' dataset after and before removing outliers.
 
 Upon examination of the outcomes, we observe that the 'experience_level' column exhibits a symmetric distribution. Conversely, the 'country' column displays positive skewness.
+
+<div style="text-align:center">
+  <figure>
+    !<img src="images/image_4.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 4. Skewness of experience_level and country</figcaption>
+  </figure>
+</div>
 
 ## Separate the dataset into training and testing data
 
@@ -231,3 +259,10 @@ min          1.0</br>
 50%          1.0</br>
 75%          1.0</br>
 max          1.0</br>
+
+<div style="text-align:center">
+  <figure>
+    !<img src="images/image_5.png" alt="Original vs Sampled dataset" >
+    <figcaption style="color:lightblue; font-style: italic;">Fig. 5. Histogram of Mean, Median and Mode</figcaption>
+  </figure>
+</div>
