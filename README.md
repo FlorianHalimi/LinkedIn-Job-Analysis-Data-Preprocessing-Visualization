@@ -144,10 +144,10 @@ We've identified outliers using the z-score technique, flagging any data points 
 
 Another method used for outlier detection is the IQR method, which involves calculating quartiles (q1 and q3), determining the interquartile range (IQR), and establishing upper and lower bounds to detect outliers in a dataset.
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_1.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 1. Distribution of dataset before & after removing outliers</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_1.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 1. Distribution of dataset before & after removing outliers</figcaption>
   </figure>
 </div>
 
@@ -164,10 +164,10 @@ SMOTE is dedicated to rectifying class imbalances by showcasing the transformati
 2. SMOTE Application:
    - Uses SMOTE to oversample the minority class ('experience_level') in the training set, creating a more balanced dataset.
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_2.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 2. Class distribution before and after SMOTE</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_2.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 2. Class distribution before and after SMOTE</figcaption>
   </figure>
 </div>
 
@@ -183,10 +183,10 @@ Here's a step-by-step explanation:
    - Left subplot (Original Dataset): Plots a histogram of the 'experience_level' column from the entire dataset ('cleaned_data') in blue.
    - Right subplot (Sampled Dataset): Plots a histogram of the 'experience_level' column from the sampled data in orange.
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_3.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 3. Original Dataset vs Sampled Subset</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_3.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 3. Original Dataset vs Sampled Subset</figcaption>
   </figure>
 </div>
 
@@ -197,10 +197,10 @@ skew() function is used to compute the skewness values for the specified numeric
 
 Upon examination of the outcomes, we observe that the 'experience_level' column exhibits a symmetric distribution. Conversely, the 'country' column displays positive skewness.
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_4.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 4. Skewness of experience_level and country</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_4.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 4. Skewness of experience_level and country</figcaption>
   </figure>
 </div>
 
@@ -261,10 +261,10 @@ min 1.0</br>
 75% 1.0</br>
 max 1.0</br>
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_5.png" alt="Original vs Sampled dataset" >
-    <figcaption style="color:lightblue; font-style: italic;">Fig. 5. Histogram of Mean, Median and Mode</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_5.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 5. Histogram of Mean, Median and Mode</figcaption>
   </figure>
 </div>
 
@@ -278,10 +278,10 @@ max 1.0</br>
 
 #### Nominal data type
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_6.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 6. Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_6.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 6. Top 10 companies that have posted the most jobs requiring 'Engineering' or 'Information Technology' skills</figcaption>
   </figure>
 </div>
 
@@ -289,10 +289,10 @@ max 1.0</br>
 
 #### Ordinal and nominal type of data
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_7.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 7. Displaying the distribution of job postings among the top 10 companies for the selected experience level</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_7.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 7. Displaying the distribution of job postings among the top 10 companies for the selected experience level</figcaption>
   </figure>
 </div>
 
@@ -302,20 +302,20 @@ max 1.0</br>
 
 1. Pie Chart showing top 10 companies with Most Job Postings in Linkedin
 
-  <div style="text-align:center">
-  <figure>
-    <img src="images/image_8.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 8. Pie Chart showing top 10 companies with Most Job Postings in Linkedin</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_8.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 8. Pie Chart showing top 10 companies with Most Job Postings in Linkedin</figcaption>
   </figure>
 </div>
 </br>
 
 2. Donut chart showing top 10 locations with Most Job Postings in Linkedin
 
-  <div style="text-align:center">
-  <figure>
-    <img src="images/image_9.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 9. Donut chart showing top 10 locations with Most Job Postings in Linkedin</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_9.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 9. Donut chart showing top 10 locations with Most Job Postings in Linkedin</figcaption>
   </figure>
 </div>
 
@@ -327,19 +327,19 @@ max 1.0</br>
 
 1. Skills distribution based on location and experience level
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_10.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 10. Pie chart showing top skills based on location and experience level</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_10.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 10. Pie chart showing top skills based on location and experience level</figcaption>
   </figure>
 </div>
 
 1. Top companies based on location and experience level
 
-<div style="text-align:center">
-  <figure>
-    <img src="images/image_11.png" alt="" >
-    <figcaption style="color:lightblue; font-style: italic; text-align: center;">Fig. 11. Pie chart showing top companies based on location and experience level</figcaption>
+<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+  <figure style="text-align: center;">
+    <img src="images/image_11.png" alt="" style="max-width: 100%; height: auto;">
+    <figcaption style="color: lightblue; font-style: italic; text-align: center;">Fig. 11. Pie chart showing top companies based on location and experience level</figcaption>
   </figure>
 </div>
 
